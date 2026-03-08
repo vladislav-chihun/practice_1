@@ -1,0 +1,28 @@
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img {
+  display: block;
+}
+.list_element {
+  display: flex;
+  gap: 20px;
+}
+.logo {
+  box-sizing: border-box;
+  text-decoration: none;
+  display: inline-block;
+}
