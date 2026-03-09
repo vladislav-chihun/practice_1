@@ -1,8 +1,13 @@
 ul,
 ol {
+  list-style: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
 }
 h1,
 h2,
@@ -16,6 +21,8 @@ p {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .list_element {
   display: flex;
