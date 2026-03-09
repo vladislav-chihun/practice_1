@@ -1,6 +1,7 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
 ul,
 ol {
   list-style: none;
@@ -342,16 +343,117 @@ header {
   height: 698px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 120px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+  background-color: #f7f7f7;
+  width: auto;
 }
 .section_8_text h2 {
   font-size: 38px;
   font-weight: 400;
   line-height: 42px;
 }
-.section_8_div p {
+.section_8_text p {
   color: #645c55;
   line-height: 30px;
   font-size: 24px;
   margin-top: 15px;
+  width: 600px;
+}
+.section_8_list {
+  display: flex;
+  gap: 16px;
+  width: 1164px;
+  height: 460px;
+  margin-top: 40px;
+}
+.section_8_text_bottom {
+  align-self: center;
+  width: 140px;
+  min-width: 140px;
+  margin-top: 50px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.section_9_div {
+  display: flex;
+  width: 1168px;
+  height: 392px;
+  padding-left: 150px;
+  gap: 16px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section_9_text_div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 378px;
+  min-width: 378px;
+  max-width: 378px;
+  height: 392px;
+}
+.section_9_text {
+  width: 358px;
+  color: #645c55;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 14px;
+}
+.section_9_text_bottom {
+  color: #1b1a1a;
+  margin-left: 25px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.section_9_text_div h2 {
+  color: #403e3b;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 400;
+}
+.section_9_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px 115px;
+}
+.section_9_list li {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.section_9_list_item_text_div {
+  width: 196px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  text-align: start;
+  margin-left: 30px;
+}
+
+.section_10_div {
+  width: 1168px;
+  height: 114px;
+  display: flex;
+  padding-left: 100px;
+  align-items: center;
+}
+
+.section_10_desc {
+  display: flex;
+  flex-direction: column;
+  width: 576px;
+  max-width: 576px;
+  height: 114px;
+  align-items: flex-start;
+}
+.section_10_text {
+  margin-left: 447px;
+  text-align: center;
 }
