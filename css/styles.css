@@ -521,7 +521,12 @@ header {
 .footer_list {
   display: flex;
   gap: 20px;
-  height: 30px;
+  height: 40px;
+  align-items: end;
+}
+.footer_list li {
+  display: flex;
+  align-items: center;
 }
 .footer_list_div {
   display: flex;
@@ -533,17 +538,15 @@ header {
   height: 25px;
 }
 .footer_list li a {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition:
-    color 0.3s,
-    background-color 0.3s;
 }
-.footer_list li:hover {
+.footer_list li a:hover {
+  transition: background-color 200ms;
   fill: white;
   background-color: #1b1a1a;
-  border-radius: 5px;
+  border-radius: 10px;
 }
