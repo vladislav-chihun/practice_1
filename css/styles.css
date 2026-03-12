@@ -12,6 +12,7 @@ ol {
 a {
   text-decoration: none;
   font-style: normal;
+  color: #1b1a1a;
 }
 h1,
 h2,
@@ -52,6 +53,7 @@ header {
   color: #1b1b1b;
 }
 .header_btn {
+  cursor: pointer;
   border: none;
   color: #ffff;
   background-color: #1b1b1b;
@@ -59,9 +61,17 @@ header {
   width: 155px;
   height: 46px;
   margin-left: 32px;
+  transition: background-color 200ms;
+}
+.header_btn:hover {
+  background-color: #403e3b;
 }
 .nav_list_text {
   color: #1b1b1b;
+  transition: color 200ms;
+}
+.nav_list_text:hover {
+  color: #858280;
 }
 
 .section_hero_div {
@@ -379,7 +389,7 @@ header {
 .section_8_pic img:hover {
   display: n;
 }
-.section_8_text_bottom {
+.section_8_btn {
   align-self: center;
   width: 140px;
   min-width: 140px;
@@ -387,6 +397,10 @@ header {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.4px;
+  transition: color 200ms;
+}
+.section_8_btn:hover {
+  color: #858280;
 }
 .section_9_div {
   display: flex;
@@ -521,8 +535,6 @@ header {
 .footer_list {
   display: flex;
   gap: 20px;
-  height: 40px;
-  align-items: end;
 }
 .footer_list li {
   display: flex;
@@ -536,17 +548,26 @@ header {
 .footer_icon {
   width: 25px;
   height: 25px;
+
+  fill: #1b1a1a;
+
+  transition: fill 200ms;
 }
 .footer_list li a {
   width: 40px;
   height: 40px;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
+  border-radius: 10px;
+
+  transition: background-color 200ms;
 }
 .footer_list li a:hover {
-  transition: background-color 200ms;
-  fill: white;
   background-color: #1b1a1a;
-  border-radius: 10px;
+}
+.footer_list li a:hover .footer_icon {
+  fill: #ffffff;
 }
