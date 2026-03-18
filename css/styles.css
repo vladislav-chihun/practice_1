@@ -27,8 +27,9 @@ p {
   margin-bottom: 0;
   font-family: "Poppins", sans-serif;
 }
+
 .container {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -43,8 +44,8 @@ img {
   width: 1200px;
   align-items: center;
   justify-content: space-between;
-  padding-left: 120px;
-  padding-right: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 header {
   height: 90px;
@@ -105,6 +106,7 @@ header {
 .section_hero_div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 60px;
   padding: 120px 0;
   padding-top: 0;
@@ -113,17 +115,19 @@ header {
 .hero_text {
   width: 600px;
   height: 566px;
+  padding-left: 60px;
 }
 
 .hero_text_logo {
   font-size: 14px;
   color: #645c55;
+  letter-spacing: 2px;
 }
 .hero_text h1 {
   margin-top: 18px;
   font-size: 64px;
   line-height: 70.4px;
-  font-weight: 300;
+  font-weight: 400;
   color: #1b1a1a;
 }
 .hero_text a {
@@ -155,6 +159,7 @@ header {
   display: flex;
   gap: 80px;
   padding: 100px 0;
+  justify-content: center;
 }
 .section_2_desc {
   width: 500px;
@@ -162,9 +167,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-.section_2_desc {
-  padding-left: 133px;
 }
 .section_2_desc p {
   color: #403e3b;
@@ -194,10 +196,14 @@ header {
 }
 .section_2_div h2 {
   font-size: 32px;
+  font-weight: 400;
+  width: 134px;
 }
 .section_3_div {
   display: flex;
   position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .section_3_text_div {
   position: absolute;
@@ -275,6 +281,8 @@ header {
 .section_5_div {
   position: relative;
   display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .section_5_text_div {
   position: absolute;
@@ -349,6 +357,8 @@ header {
 .section_7_div {
   position: relative;
   display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .section_7_text_div {
   position: absolute;
