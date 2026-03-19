@@ -388,8 +388,16 @@ header {
 }
 .section_8_div {
   display: flex;
+  min-width: 1440px;
   flex-direction: column;
   padding: 120px 0 100px;
+  align-items: center;
+}
+.section_8_text {
+  width: 1200px;
+}
+.section_8_list_div {
+  width: 1200px;
 }
 .section_8_text h2 {
   font-size: 38px;
@@ -405,7 +413,6 @@ header {
 }
 .section_8_list {
   display: flex;
-  justify-content: space-between;
   gap: 16px;
 }
 .section_8_pic img {
