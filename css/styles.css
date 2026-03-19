@@ -48,6 +48,7 @@ img {
   margin-right: auto;
 }
 header {
+  width: 1440px;
   height: 90px;
   display: flex;
   align-items: center;
@@ -60,9 +61,10 @@ header {
   padding-left: 32px;
   padding-right: 32px;
 }
-.list_element {
+.header_list_element {
   display: flex;
   align-items: center;
+
   gap: 32px;
   height: 50px;
 }
@@ -70,6 +72,10 @@ header {
   display: flex;
   justify-content: space-around;
   gap: 32px;
+  width: 584px;
+}
+.nav_list_element {
+  font-size: 15px;
 }
 .logo {
   color: #1b1b1b;
@@ -81,7 +87,12 @@ header {
 }
 .header_btn {
   cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 0.4px;
   border: none;
+  font-family: po;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
   color: #ffff;
   background-color: #1b1b1b;
   border-radius: 14px;
@@ -388,9 +399,11 @@ header {
 }
 .section_8_div {
   display: flex;
-  min-width: 1440px;
+  width: 1200px;
   flex-direction: column;
   padding: 120px 0 100px;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
 }
 .section_8_text {
@@ -398,6 +411,7 @@ header {
 }
 .section_8_list_div {
   width: 1200px;
+  margin-top: 40px;
 }
 .section_8_text h2 {
   font-size: 38px;
@@ -503,6 +517,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 100px 0;
+  width: 1200px;
 }
 
 .section_10_desc {
